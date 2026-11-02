@@ -1,68 +1,120 @@
-# Java Programming Practical
+# COS 201 - Computer Programming I
 
-## Student Profile
+## Student Information
+- **Name:** Nicholas Odiaka
+- **Matriculation Number:** 26/21237
+- **Programme:** Software Engineering
+- **Level:** 200 Level
+- **Course:** COS 201
 
-- **Student Name:** Nicholas Odiaka
-- **Matric Number:** 26/21237
-- **Department:** Software Engineering
-- **Academic Level:** 200 Level
+---
 
-## Introduction
+## Week 1: Introduction to Programming and Problem-Solving
 
-This project is part of my COS 201 coursework. It contains a simple Java application created to demonstrate basic programming concepts and the process of displaying information through the Java console.
+### Practical Exercise
+I wrote and ran my first Java program. It displays my course, programme, a few reasons for learning programming, and what I hope to learn.
 
-## Course Information
+### File
+- `week01/FirstProgram.java`
 
-- **Course Code:** COS 201
-- **Course Title:** Computer Programming I
-- **Practical Topic:** Development Environment and Java
+### What I Practised
+- Writing a Java class and the `main` method
+- Displaying text with `System.out.println`
+- Compiling and running a Java program
+- Keeping my work in a GitHub repository
 
-## Project Objectives
+---
 
-The main objectives of this exercise are to:
+## Week 2: Development Environment and First Java Program
 
-1. Understand the basic structure of a Java program.
-2. Learn how to use the `main()` method.
-3. Display text using Java output statements.
-4. Practise compiling and running Java source files.
+### Practical Title
+Development Environment and First Java Program
 
-## Folder Organisation
+### Objective
+To learn how to write a simple Java program, run it and save the work on GitHub.
 
-```text
-COS201-Programming-I/
-│
-├── README.md
-│
-└── week02/
-    └── Helloworld.java
-```
-
-## Development Tools
-
+### Tools Used
 - Java Development Kit (JDK)
 - Visual Studio Code
-- Command Prompt or Terminal
+- Git
+- GitHub Desktop
+- GitHub
 
-## Running the Application
+### File
+- `week02/HelloWorld.java`
 
-Open the project folder in your terminal.
+### How to Run
+1. Open a terminal inside the `week02` folder.
+2. Compile the file:
+   `javac HelloWorld.java`
+3. Run the program:
+   `java HelloWorld`
 
-First, compile the Java file:
+### What I Learned
+I learned how to write a Java program, compile it and run it to see the output.
 
+---
+
+## Week 3: Variables, Data Types, Expressions and Input/Output
+
+### Objectives
+- Learn how to create and use variables in Java.
+- Use different types of data, such as whole numbers and decimal numbers.
+- Carry out simple calculations.
+- Ask the user to enter information with `Scanner`.
+- Display the answers on the screen.
+- Practise running and checking Java programs.
+
+### Programs
+
+1. `week03/SimpleCalculator.java`
+   - Takes two numbers and displays their sum, difference, product and quotient. It also checks if the second number is zero before dividing.
+
+2. `week03/AverageCalculator.java`
+   - Takes a student's name and three scores, then displays the total and average.
+
+3. `week03/ItemCost.java`
+   - Takes an item name, quantity and unit price, then works out the total cost.
+
+### How to Run
+Open a terminal inside the `week03` folder.
+
+**Simple Calculator**
 ```bash
-javac week02/Helloworld.java
+javac SimpleCalculator.java
+java SimpleCalculator
 ```
 
-Then execute the program:
-
+**Average Calculator**
 ```bash
-java week02.Helloworld
+javac AverageCalculator.java
+java AverageCalculator
 ```
 
-## What I Gained from This Exercise
+**Item Cost**
+```bash
+javac ItemCost.java
+java ItemCost
+```
 
-I gained practical experience writing a Java class, understanding the program entry point, and using print statements to display messages and student details.
+### Testing
+I should try each program with different numbers and check that the answers are correct.
 
-## Assignment Submission
+---
 
-[Click here to submit the completed assignment](https://docs.google.com/forms/d/e/1FAIpQLScfFSTTZzdgAZ9qPEFp8gNJpHCu0cYudvHJizNCbKOACAb1A/viewform?usp=header)
+## Repository Structure
+```text
+COS201-Programming-I/
+├── README.md
+├── week01/
+│   └── FirstProgram.java
+├── week02/
+│   └── HelloWorld.java
+└── week03/
+    ├── SimpleCalculator.java
+    ├── AverageCalculator.java
+    └── ItemCost.java
+```
+
+---
+Course: COS 201 - Computer Programming I
